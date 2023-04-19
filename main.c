@@ -4,6 +4,9 @@
 #include<string.h>
 #include<windows.h>
 #include<errno.h>
+void YAzz(int x){
+	x = 2;
+}
 
 void gotoxy(int x,int y){
 	COORD coord;
