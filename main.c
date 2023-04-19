@@ -5,6 +5,14 @@
 #include<windows.h>
 #include<errno.h>
 
+/*
+
+return_data_type function_name([]){
+fdcytfygfdxdyhtfcgdxrfcxfdxchfdxcgcfgf
+}
+
+*/
+
 void gotoxy(int x,int y){
 	COORD coord;
 	coord.X = x;
