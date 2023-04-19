@@ -5,6 +5,7 @@
 #include<windows.h>
 #include<errno.h>
 
+
 void gotoxy(int x,int y){
 	COORD coord;
 	coord.X = x;
