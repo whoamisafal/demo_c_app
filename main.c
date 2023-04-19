@@ -4,6 +4,10 @@
 #include<string.h>
 #include<windows.h>
 #include<errno.h>
+int cat([])
+{
+	int cat=100;
+}
 
 void gotoxy(int x,int y){
 	COORD coord;
