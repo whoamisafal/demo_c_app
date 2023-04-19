@@ -230,7 +230,13 @@ Cstudent *search(Cstudent students[],int *searchResultSize,char value[],int size
 	return result;	
 }
 
+void hello()
+{
+	printf("hello safal");
+}
+
 void main(){
+	hello();
 	SetConsoleTitle("DEMO APPLICATION");
 	Cstudent *student;	
  	int size=0;int i=0,searchResultSize=0;
