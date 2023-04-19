@@ -1,9 +1,11 @@
 #include<stdio.h>
+
 #include<conio.h>
 #include<stdlib.h>
 #include<string.h>
 #include<windows.h>
 #include<errno.h>
+
 
 void gotoxy(int x,int y){
 	COORD coord;
@@ -230,7 +232,13 @@ Cstudent *search(Cstudent students[],int *searchResultSize,char value[],int size
 	return result;	
 }
 
+void Hello()
+{
+	printf("Hello");
+}
+
 void main(){
+	Hello();
 	SetConsoleTitle("DEMO APPLICATION");
 	Cstudent *student;	
  	int size=0;int i=0,searchResultSize=0;
